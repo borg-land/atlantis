@@ -16,7 +16,7 @@ data "google_client_config" "provider" {}
 terraform {
   required_version = "0.12.24"
   backend "gcs" {
-    bucket = "mahamed-coen-state"
+    bucket = "atl-state"
     prefix = "atlantis"
   }
 }
